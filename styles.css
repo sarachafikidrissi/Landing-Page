@@ -1,0 +1,121 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  /* Navbar Styling */
+  
+  .navbar {
+      border-bottom: 1px solid lightgrey;
+      padding: 10px;
+  }
+  .navbar .btn {
+      padding-left:20px;
+      padding-right:20px;
+  }
+  
+  .navbar span{
+    color: #22577A;
+    text-align: center;
+  }
+  
+  /*Heo Section Styling */
+  
+  .hero {
+      background-color: #f8f9fa;
+      padding: 10px 0;
+  
+    }
+    .hero-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .hero-text {
+      max-width: 400px;
+    }
+    .hero-text form {
+      padding-top: 20px;
+    }
+  
+    .hero-text .col-sm-6{
+      margin-right: 10px;
+    }
+  
+    .hero-text .custom-btn {
+      width: 800px; 
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-img img {
+      max-width: 100%;
+      height: 600px;
+      
+      transform: translateX(200px);
+    }
+  
+    .hero-text h1{
+      font-family: "DM Serif Display", serif;
+      font-weight: bolder;
+      color: #4F345A;
+      margin-top: 150px;
+    }
+  
+    .hero-text p{
+      font-weight: lighter;
+      color: #4F345A;
+      padding-bottom: 10px;
+    }
+  
+    .hero .btn {
+      background-color: #38A3A5;
+      color: white;
+      padding: 15px;
+    }
+  
+  /* Featured Services  Styling */
+  .py-5 {
+    background-color: #4F345A;
+    color: #F8F9FA;
+  }
+  
+  .py-5 .card-title, .card-text{
+    color: #4F345A;
+  }
+  
+  .py-5 .card-body {
+    background-color: #f8f9fa;
+  }
+  
+  
+  
+  /* Call to action Styling */
+  
+  .cta-section {
+    background-color: #F4FBFB;
+    color: black;
+  }
+  
+  .cta-section h2, p {
+    color:#4F345A;
+  }
+  
+  .cta-section .btn {
+    background-color: #38A3A5;
+    color: azure;
+  }
+  
+  /* Footer Styling */
+  
+  .stl {
+    color: #4F345A;;
+    background-color: #f8f9fa;
+    border-top: 1px solid lightgrey;
+  }
+  .stl a {
+    color: #4F345A;
+  }
