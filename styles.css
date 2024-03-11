@@ -53,7 +53,7 @@ body {
     }
     .hero-img img {
       max-width: 100%;
-      height: 600px;
+      height: 500px;
       
       transform: translateX(200px);
     }
@@ -76,6 +76,8 @@ body {
       color: white;
       padding: 15px;
     }
+
+
   
   /* Featured Services  Styling */
   .py-5 {
@@ -109,6 +111,76 @@ body {
     color: azure;
   }
   
+
+  /* About us */
+
+
+  .about {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+
+  }
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-text {
+    max-width: 400px;
+  }
+  .about-text form {
+    padding-top: 20px;
+  }
+
+  .about-text .col-sm-6{
+    margin-right: 10px;
+  }
+
+  .about-text .custom-btn {
+    width: 800px; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-img img {
+    max-width: 100%;
+    height: 500px;
+    
+    transform: translateX(10px);
+  }
+
+  .about-text h1{
+    font-family: "DM Serif Display", serif;
+    font-weight: bolder;
+    color: #4F345A;
+    margin-bottom: 0;
+  }
+
+  .about-text h2 {
+    font-weight:lighter;
+    color: #4F345A;
+    margin-top: 100px;
+  }
+
+  .about-text p{
+    font-weight: lighter;
+    color: #4F345A;
+    padding-bottom: 10px;
+  }
+
+  .container .btn {
+    background-color: #38A3A5;
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  .about-text h3 {
+    /* font-weight:lighter; */
+    color: #4F345A;
+    /* margin-top: 100px; */
+  }
+
   /* Footer Styling */
   
   .stl {
