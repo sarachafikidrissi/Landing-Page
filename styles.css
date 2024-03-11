@@ -14,12 +14,16 @@ body {
   .navbar .btn {
       padding-left:20px;
       padding-right:20px;
+      margin-top: 40px;
   }
   
   .navbar span{
     color: #22577A;
     text-align: center;
   }
+ .navbar-custom {
+  height: 60px;
+ }
   
   /*Heo Section Styling */
   
@@ -181,10 +185,16 @@ body {
     /* margin-top: 100px; */
   }
 
+  /* video section */
+
+  .video-section {
+    border-top: 1px solid lightgrey;
+    color: #4F345A;
+  }
   /* Footer Styling */
   
   .stl {
-    color: #4F345A;;
+    color: #4F345A;
     background-color: #f8f9fa;
     border-top: 1px solid lightgrey;
   }

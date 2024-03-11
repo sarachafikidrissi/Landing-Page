@@ -18,11 +18,11 @@
 
 
     <title>Locallinker</title>
-    <link rel="icon" href="../static/Images/icon.svg" type="image/icon type">
+    <link rel="icon" href="./icon copy.svg" type="image/icon type">
   </head>
   <body style="height: 2000px;">
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-sm navbar-light container-fluid bg-light" >
+    <nav class="navbar navbar-expand-md navbar-light container-fluid bg-light navbar-custom" >
       <div class="container">
         <a class="navbar-brand mb-0 h1" href="{{ url_for('home') }}">
           <img src="./icon copy.svg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -50,18 +50,12 @@
                 </li>
             </ul>
             <div class="btn-toolbar ms-auto" role="toolbar" aria-label="Toolbar with button groups">
-              <!-- {% if current_user.is_authenticated %} -->
-              <!-- <div class="btn-group me-2" role="group" aria-label="First group">
-                <a href="{{ url_for('logout') }}"><button type="button" class="btn" style="background-color: #8FA998; color: white;">Logout</button></a>
-            </div> -->
-              <!-- {% else %} -->
               <div class="btn-group me-2" role="group" aria-label="First group">
                   <a href="{{ url_for('login') }}"><button type="button" class="btn" style="background-color: #8FA998; color: white;">Sign In</button></a>
               </div>
               <div class="btn-group me-2" role="group" aria-label="First group">
                   <a href="{{ url_for('register') }}"><button type="button" class="btn" style="background-color: #38A3A5; color: white;" >Register</button></a>
               </div>
-              <!-- {% endif %} -->
              </div>
         </div>
       </div>
@@ -204,6 +198,23 @@
       </div>
     </section>
       
+      <!-- video section -->
+
+      <section class="video-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center">Watch Our Video</h2>
+              <div class="video-wrapper">
+                <video class="custom-video"  controls>
+                  <source src="./Discover Local Services with our Script!.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
       <!-- footer section -->
 
@@ -249,6 +260,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </body>
